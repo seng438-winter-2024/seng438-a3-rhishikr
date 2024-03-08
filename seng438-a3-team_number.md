@@ -24,7 +24,7 @@ Text…
 
 # 3 A detailed description of the testing strategy for the new unit test
 
-Text…
+Our strategy involves reviewing the code implemented in our prior tests for Assignment 2, with the aim of identifying any gaps in our plans and test coverage. Through this process, we aim to gain insights into the metrics guiding our work and enhance the quality of these files by introducing additional tests. By regularly assessing our metrics and existing test coverage, we can pinpoint areas requiring new tests, taking into account both what has already been tested and what is currently under development. Our tool of choice for this endeavor is EmlEmma, which seamlessly integrates with Eclipse, our primary development platform.
 
 # 4 A high level description of five selected test cases you have designed using coverage information, and how they have increased code coverage
 
