@@ -2,12 +2,13 @@
 
 **Lab. Report #3 – Code Coverage, Adequacy Criteria and Test Case Correlation**
 
-| Group \#:      |     |
-| -------------- | --- |
-| Student Names: |     |
-|                |     |
-|                |     |
-|                |     |
+| Group 22      |
+| -------------- |
+| Rhishik Roy |
+| Kaniz Taiba |
+| Ethan Reed |
+| Michael Svoboda |
+| Saim Shahzad |
 
 (Note that some labs require individual reports while others require one report
 for each group. Please see each lab document for details.)
@@ -58,16 +59,41 @@ Cons of using EclEmma for test coverage:
 
 # 7 A comparison on the advantages and disadvantages of requirements-based test generation and coverage-based test generation.
 
-Text…
+
+---------Advantages of Requirements-driven Test Generation:
+
+User-centric approach: Prioritizing user needs ensures that the software aligns with requirements, fostering the creation of comprehensive test cases covering all functional aspects.
+
+Enhanced traceability: This method establishes a clear link between requirements and test cases, facilitating effective tracking of testing progress throughout the software development lifecycle.
+
+Thorough requirement validation: By rigorously testing all requirements, this approach aids in identifying and addressing any gaps or discrepancies, thereby enhancing software reliability.
+
+-----------Advantages of Coverage-oriented Test Generation:
+
+Comprehensive code execution: Ensures thorough code coverage during testing, leading to faster identification of potential issues as it focuses primarily on code execution rather than requirements.
+
+Scalability: This approach can be easily adapted and scaled to accommodate testing for large-scale software systems, ensuring efficient testing across various project sizes.
+
+---------------Limitations of Requirements-driven Test Generation:
+
+Neglect of non-functional requirements: Primarily focusing on functional requirements may result in inadequate testing of non-functional aspects such as performance and security, potentially leaving critical vulnerabilities unaddressed.
+
+Test case generation overhead: The process of generating suitable test cases requires significant effort and resources, adding complexity to the testing process.
+
+---------------Limitations of Coverage-based Test Generation:
+
+Partial requirement coverage: While it tests the implemented code, it may overlook some functional requirements, potentially leading to gaps in testing coverage.
+
+Misleading code coverage metrics: High code coverage does not guarantee thorough software testing, as it's possible to have defects despite comprehensive code coverage. Moreover, maintaining code-based tests requires continuous updates to reflect changes in the codebase.
 
 # 8 A discussion on how the team work/effort was divided and managed
 
-Text…
+The workload was evenly distributed among all team members, fostering a collaborative environment conducive to efficient progress. Rhishik, Kaniz and Ethan undertook responsibilities pertaining to the DataUtilities class, while Michael and Saim focused on tasks related to the Range class. Upon completing their respective deliverables, the team engaged in thorough sharing sessions, highlighting key aspects of their work. Through this collective review process, potential errors were identified, and strategies for enhancing results and analysis were proposed. Team synergy, akin to previous assignments, played a pivotal role in ensuring the quality of our deliverables. Leveraging multiple perspectives proved instrumental in garnering suggestions, rectifying errors, exploring alternative solutions, and ultimately enhancing the overall lab experience. Furthermore, consistent communication via our group chat platform ensured alignment among team members, mitigating the risk of incomplete deliverables by the deadline.
 
 # 9 Any difficulties encountered, challenges overcome, and lessons learned from performing the lab
 
-Text…
+Initially, comprehending Coverage and mastering the application of Eclemma posed a significant challenge. Our early efforts were concentrated on understanding these concepts and familiarizing ourselves with the associated tools and coverage methodologies. Once we had established a collective understanding, we proceeded to test and distinguish between boundary value analysis and equivalence class analysis. Despite encountering obstacles along the way, we successfully executed all tests within two groups through pair testing. This hands-on lab experience underscored the importance of discerning various forms of analysis in white box testing.
 
 # 10 Comments/feedback on the lab itself
 
-Text…
+The lab experience proved profoundly impactful in offering students a practical immersion into software testing techniques. Exploring the diverse avenues of software testing proved both intriguing and enlightening. While initially confident in the adequacy of our methods post-Assignment 2, a brief delve into JUnit files with EclEmma revealed ample room for enhancement. The utilization of software coverage applications provided invaluable real-time insights into evolving coverage rates. In essence, the lab afforded a captivating glimpse into the professional testing landscape. Yet, amidst its merits, the assignment's setup could benefit from refinement, potentially streamlining processes to allocate more time for students to refine their testing proficiencies rather than grappling with debugging intricacies and library concerns.
