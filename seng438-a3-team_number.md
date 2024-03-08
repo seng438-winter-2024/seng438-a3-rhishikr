@@ -14,7 +14,9 @@ for each group. Please see each lab document for details.)
 
 # 1 Introduction
 
-Text…
+In this laboratory session, we delved into the fundamental concepts and application of white-box testing. Our exploration entailed the utilization and expansion of our pre-existing test suite, alongside the incorporation of novel coverage metrics such as statement and branch coverage. We crafted fresh white-box test cases aimed at augmenting code coverage and assessed the enhancements vis-à-vis our initial implementation. Moreover, a scrutiny of specific methods' data-flow coverage was conducted.
+
+Through the utilization of white-box testing methodologies integrated with coverage tools, we accomplish the following objectives: Ensuring thorough testing of all code pathways including branches, loops, and exception handling. Identifying areas within the codebase that lack sufficient testing, thus enabling targeted improvements to the test suite. Improving the overall design and maintainability of the codebase. Detecting and rectifying errors at an early stage in the development lifecycle.
 
 # 2 Manual data-flow coverage calculations for X and Y methods
 
